@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Calistle;
+    src: url(Caliste.otf);
+}
+body{
+    background-image: url(../Imagens/img1.jpg);
+    background-repeat: ;
+    background-size: 2000px;
+    height: 1px;
+}
+.title{
+    color: white;
+    font-family: Calistle;
+    font-weight: 900px;
+    font-size: 50px;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px rgb(255, 255, 255);
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0 0 10px black;
+}
+.titleSignup{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 15px;
+    border: solid 3px rgb(255, 255, 255);
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0 0 10px black;
+    justify-content: center;
+    display: inline-flexbox;
+    align-items: center;
+    text-align: center;
+    margin: 550px;
+    position: relative;
+    bottom: 400px;
+    font-size: 1.5em;
+}
+.label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+.botoes{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: gray;
+    font-size: 0.9em;
+    border-radius: 15px;
+    border: solid 2px white;
+}
+.botoes:hover{
+    cursor: pointer;
+    color: gray;
+    background-color: white;
+    transition: .5s;
+
+}
+.jogosOptions{
+    border-radius: 10px;
+    text-align: center;
+}

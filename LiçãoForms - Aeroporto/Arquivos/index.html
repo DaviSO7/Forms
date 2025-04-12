@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeroporto</title>
+    <link rel="stylesheet" href="style.css">
+     <!--fazer um forms com objetivo de adquirir passagens aéreas-->
+</head>
+<body>
+    <h1 class="title1">Compre passagens aéreas</h1>
+    <form class="main">
+        <fieldset class="container">
+            <legend class="title2">Adquira sua passagem:</legend>
+            <label for="nome" class="info">Informe seu nome completo: </label><input type="text"><br><br>
+            <label for="cpf" class="info">Informe seu CPF: </label><input type="number"><br><br>
+            <label for="empresa" class="info">Selecione a empresa que você deseja viajar: </label><select name="empresas" class="empresas">
+                <option value="emirates">Emirates</option>
+                <option value="GOL">GOL</option>
+                <option value="azul">Azul</option>
+                <option value="latam">Latam</option>
+                <option value="voeass">VOEPASS</option>
+                <option value="Avianca">Avianca</option>
+            </select><br><br>
+            <label for="estado" class="info">Selecione o estado que deseja ir: </label><select name="estado" class="estado">
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="es">Espirito Santo</option>
+                <option value="mt">Mato Grosso</option>
+                <option value="ce">Ceara</option>
+                <option value="ac">Acre</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="am">Amazonas</option>
+                <option value="ba">Bahia</option>
+                <option value="pa">Paraná</option>
+                <option value="pa2">Pará</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="go">Goiás</option>
+                <option value="pe">Pernambuco</option>
+                <option value="pi">Piauí</option>
+                <option value="ma">Maranhão</option>
+                <option value="to">Tocantins</option>
+                <option value="ap">Amapá</option>
+                <option value="pa3">Paraíba</option>
+                <option value="ro">Rondônia</option>
+                <option value="ro2">Roraima</option>
+                <option value="al">Alagoas</option>
+                <option value="sg">Sergipe</option>
+                <option value="df">Distrito Federal</option>
+            </select><br><br>
+            <label for="dia" class="info">Informe o dia da viagem: </label><input type="date" name="dia" class="date"><br><br><br>
+            <input type="submit" class="submit" value="Adquirir Passagem"><br><br>
+        </fieldset>
+        <img src="../Imagens/img2.jpg" class="img2">
+    </form>
+</body>
+</html>
